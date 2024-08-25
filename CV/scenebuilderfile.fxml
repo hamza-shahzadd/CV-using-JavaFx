@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.MeshView?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenebuilderfileController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe711" height="115.0" layoutX="184.0" layoutY="351.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="396.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe711" height="130.0" layoutX="181.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="396.0" />
+      <BorderPane prefHeight="56.0" prefWidth="606.0" />
+      <MeshView />
+      <MeshView layoutX="133.0" layoutY="149.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0d0b0a" height="629.0" layoutX="-1.0" stroke="#6f1818" strokeType="INSIDE" width="170.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe711" height="102.0" layoutX="169.0" layoutY="38.0" stroke="#f2eeee" strokeType="INSIDE" strokeWidth="0.0" width="437.0" />
+      <Label fx:id="tfTitle" layoutX="180.0" layoutY="41.0" prefHeight="64.0" prefWidth="422.0" text="HAMZA SHAHZAD" textFill="#171b1a" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="94.0" text="Computer Scientist">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="193.0" fitWidth="178.0" layoutX="24.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hamza.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="13.0" layoutY="220.0" text="UNIVERSITY:" textFill="#f5f2f2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="253.0" text="FAST NUCES Islamabad" textFill="#f8f8f8">
+         <font>
+            <Font name="Calibri Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="277.0" text="2020-2023" textFill="#f8f6f6">
+         <font>
+            <Font name="Calibri Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="298.0" text="MAJOR:" textFill="#f5f2f2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="328.0" text="Computer Science" textFill="#f8f4f4">
+         <font>
+            <Font name="Calibri Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="359.0" text="ROLL NUMBER:" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="394.0" text="20I-0796" textFill="#fffbfb">
+         <font>
+            <Font name="Calibri Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="428.0" prefHeight="17.0" prefWidth="96.0" text="CGPA:" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="464.0" text="2.9" textFill="#fcfcfc">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="496.0" text="EMAIL:" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="533.0" text="hamzashahzad.785@gmail.com" textFill="#f5f2f2">
+         <font>
+            <Font name="Calibri Light" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="556.0" text="LINKEDLN:" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="15.0" layoutY="593.0" text="https://www.linkedin.com/login" textFill="#fcf8f8">
+         <font>
+            <Font name="Calibri Light" size="11.0" />
+         </font>
+      </Hyperlink>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="11.0" layoutY="242.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="14.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="14.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="17.0" layoutY="451.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="20.0" layoutY="518.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff704" height="7.0" layoutX="18.0" layoutY="578.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Label layoutX="201.0" layoutY="195.0" text="ABOUT ME:">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <BorderPane layoutX="202.0" layoutY="227.0" />
+      <Label layoutX="195.0" layoutY="228.0" text="An exceedingly driven individual with unfathomable interest in computers and ">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="245.0" text="studying all the fundamentals that go with them.I enjoy watching and ">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="263.0" text="playing football. Playing video games is what gave me a sense of belonging ">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="280.0" text="to the computer industry, demonstrating the depth of my connection to it.">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="395.0" text="I enjoy watching and playing football, among other sports. Playing video games">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="413.0" text="what gave me a sense of belonging to the computer industry, demonstrating">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="432.0" text="the depth of my connection to it.">
+         <font>
+            <Font name="Calibri Light Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="364.0" text="HOBBIES">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe711" height="95.0" layoutX="184.0" layoutY="510.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="396.0" />
+      <Label layoutX="200.0" layoutY="519.0" text="SELLING POINT:">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="557.0" text="My hardwork and dedicatiion for my field is what genuinely makes me ">
+         <font>
+            <Font name="Calibri Light Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="575.0" text="a standout">
+         <font>
+            <Font name="Calibri Light Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="S_RESIZE" />
+   </cursor>
+   <effect>
+      <DropShadow />
+   </effect>
+   <padding>
+      <Insets bottom="5.0" right="7.0" top="5.0" />
+   </padding>
+</AnchorPane>
